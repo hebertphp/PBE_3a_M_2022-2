@@ -13,10 +13,9 @@
         <button type="submit">Enviar</button>
     </form>
     <?php
-    //$res=(count($_POST)==0)?exit():"OK";
     if(count($_POST)==0){exit();}
     $nome=$_POST["nome"];
-    $idade=$_POST["idade"];
+    $idade=(int)$_POST["idade"];
     // $nome=htmlspecialchars($_POST["nome"]);
     //$idade=(int)htmlspecialchars($_POST["idade"]);
     echo "Nome: $nome, idade: $idade";
