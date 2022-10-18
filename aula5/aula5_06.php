@@ -28,5 +28,22 @@ while ($i <= 10) { //cond
 <br>==========<br>
 Mostar os valores 3 2 1 0<br>
 <?php
-
+$i=3;
+while($i>=0){
+    echo $i . " ";
+    $i--;
+}
 ?>
+<br>==========<br>
+Mostar os valores 0 2 4 6 8 10<br>
+&#8986;<br>
+<?php
+$i=0;
+while($i<11){
+    echo $i." ";
+    $i+=2;//$i++ //$i+=1
+}
+?>
+<br>==========<br>
+Mostrar os emojis começando de 9193 até 9210, exemplo:<br>
+&#9193; - 9193
