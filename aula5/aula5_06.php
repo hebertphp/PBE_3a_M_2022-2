@@ -17,7 +17,16 @@ while ($i <= 5) {//cond
 ?>
 <br>==========<br>
 Mostar os valores 7 8 9 10<br>
-<?php
+<?php 
+$i=7;//VI
+while ($i <= 10) { //cond
+    echo $i . " ";
+    $i++;//cont
 
+}
+?>
+<br>==========<br>
+Mostar os valores 3 2 1 0<br>
+<?php
 
 ?>
