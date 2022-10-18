@@ -46,4 +46,11 @@ while($i<11){
 ?>
 <br>==========<br>
 Mostrar os emojis começando de 9193 até 9210, exemplo:<br>
-&#9193; - 9193
+&#9193; - 9193<hr>
+<?php
+$j=9193;
+while($j<=9210){
+    echo "&#$j; - $j<br>";
+    $j++;
+}
+?>
