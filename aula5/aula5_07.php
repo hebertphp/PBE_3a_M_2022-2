@@ -1,5 +1,5 @@
 <?php
-$i=0; 
+$i=7; //valor inicial
 do {
  echo $i . " ";
  $i++; 
@@ -7,7 +7,7 @@ do {
 
 echo "<hr>";
 
-$i=0;
+$i=7; //valor inicial
 while($i<5){
     echo $i . " ";
     $i++; 
