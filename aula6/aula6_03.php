@@ -1,4 +1,5 @@
 <?php
+//$aluno = array ("curso"=>"TADS","nome"=>"Fulano","ra"=>123456789);
 $aluno = array (
     "curso" => "TADS",
     "nome"  => "Fulano",
