@@ -8,14 +8,16 @@
 </head>
 <body>
     <form action="#">
-
+    <?php
+    $uf=array("SP","RJ","MG","ES","TO","AM","BA","MA","PR","RO","DF","RR","PI","MT","AC","RS","PE");
+    ?>
     Selecione UF
-    <select name="uf" id="uf">
-        <option value="SP">SP</option>
-        <option value="RJ">RJ</option>
-        <option value="MG">MG</option>
-        <option value="ES">ES</option>
-    </select>    
+    <select name="uf" id="uf"> <!-- fixo -->
+        <?php
+            echo "<option value='SP'>SP</option>";
+        ?>
+    </select> <!-- fixo -->   <br>
+    <input type="submit" value="Enviar!!">
     </form>
 </body>
 </html>
