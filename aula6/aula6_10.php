@@ -11,6 +11,13 @@
     <?php
     $uf=array("SP","RJ","MG","ES","TO","AM","BA","MA","PR","RO","DF","RR","PI","MT","AC","RS","PE","SC");
     sort($uf);
+    $browser=array("Opera","Chrome","IE","Firefox","Safari");
+    sort($browser);
+    $capitais=array(
+        "SP"=>"São Paulo",
+        "RJ"=>"Rio de Janeiro"
+    );
+    
     ?>
     Selecione UF
     <select name="uf" id="uf"> <!-- fixo -->
@@ -20,6 +27,13 @@
             }
         ?>
     </select> <!-- fixo -->   <br>
+    <h2>Quais navegadores você conhece?</h2>
+    <?php
+            foreach($browser as $pos=>$valor){
+                echo "<input type='checkbox' name='$valor' id='$valor' value='$valor'> $valor<br>";
+            }
+    ?>            
+    
     <input type="submit" value="Enviar!!">
     </form>
 </body>
