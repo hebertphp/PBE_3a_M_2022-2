@@ -1,8 +1,12 @@
 <?php
+    //              0        1          2
     $nome1=array("Fulano","Beltrano","Sicrano");
     $nome2=array("Fulano","Beltrano","Sicrano");
     $nome3=array("Fulano","Beltrano","Sicrano");
     $nome4=array("Fulano","Beltrano","Sicrano");
+
+    echo "<h3>Array original</h3>";
+    echo "<pre>";print_r($nome1);echo "</pre>";
     asort($nome1);
     echo "<h3>asort</h3>";
     echo "<pre>";print_r($nome1);echo "</pre>";
