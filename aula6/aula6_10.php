@@ -14,7 +14,9 @@
     Selecione UF
     <select name="uf" id="uf"> <!-- fixo -->
         <?php
-            echo "<option value='SP'>SP</option>";
+            foreach($uf as $pos=>$valor){
+                echo "<option value='$valor'>$valor</option>";
+            }
         ?>
     </select> <!-- fixo -->   <br>
     <input type="submit" value="Enviar!!">
