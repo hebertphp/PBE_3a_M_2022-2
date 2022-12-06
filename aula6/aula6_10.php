@@ -9,7 +9,8 @@
 <body>
     <form action="#">
     <?php
-    $uf=array("SP","RJ","MG","ES","TO","AM","BA","MA","PR","RO","DF","RR","PI","MT","AC","RS","PE");
+    $uf=array("SP","RJ","MG","ES","TO","AM","BA","MA","PR","RO","DF","RR","PI","MT","AC","RS","PE","SC");
+    sort($uf);
     ?>
     Selecione UF
     <select name="uf" id="uf"> <!-- fixo -->
