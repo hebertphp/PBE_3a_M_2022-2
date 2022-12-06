@@ -7,7 +7,7 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="#">
+    <form action="recebe_form.php" method="post">
     <?php
     $uf=array("SP","RJ","MG","ES","TO","AM","BA","MA","PR","RO","DF","RR","PI","MT","AC","RS","PE","SC");
     sort($uf);
