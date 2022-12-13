@@ -1,5 +1,6 @@
 <?php
 session_start();
+echo strtotime("now");
 /*
 Var super globais
 X  $_GET -> resgata os dados de um form que utilizou o method="get"
@@ -9,6 +10,7 @@ X  $_REQUEST -> resgata os dados de um form que utilizou ou method="get" ou meth
 echo "<h1>Recebe.php</h1>";
 $txt_nome=$_POST["txt_nome"];
 $txt_email=$_POST["txt_email"];
+
 $_SESSION["txt_nome"]=$txt_nome;
 $_SESSION["txt_email"]=$txt_email;
 
