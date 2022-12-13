@@ -9,4 +9,8 @@ echo "Tamanho da string: ".strlen($hashed_password)." caracteres -  <b>$hashed_p
 if(password_verify($senha, $hashed_gerada)){
     echo "<hr>Senha ok!";
 }
+/*
+Dúvidas???????
+Dúvidas???????
+*/
 ?>
